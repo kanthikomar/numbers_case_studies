@@ -1,0 +1,16 @@
+{
+  "max_number": 1000000000000000,
+  "min_number": -1000000000000000,
+  "units": [
+    "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
+    "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen",
+    "Eighteen", "Nineteen"
+  ],
+  "tens": [
+    "", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"
+  ],
+  "magnitudes": [
+    "", "Thousand", "Million", "Billion", "Trillion", "Quadrillion"
+  ],
+  "hundred": "Hundred"
+}
