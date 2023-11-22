@@ -23,7 +23,8 @@ POST: Send a JSON object with the key number via the request body.<br>
 Example Usage:<br>
 Copy code<br>
 GET Request<br>
-http://localhost:8000/num_to_english/?number=123.45<br><br>
+http://localhost:8000/num_to_english/?number=123.45<br>
+curl -X GET "http://127.0.0.1:8000/num_to_english?number=100"<br><br>
 
 POST Request (using cURL)<br>
 curl -X POST -H "Content-Type: application/json" -d '{"number": "456.78"}' http://localhost:8000/num_to_english/<br><br>
