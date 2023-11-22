@@ -6,10 +6,6 @@ Clone the repository:<br>
 Copy code<br>
 git clone https://github.com/your_username/number-to-english.git<br><br>
 
-Install dependencies:<br>
-Copy code<br>
-pip install -r requirements.txt<br><br>
-
 Usage<br>
 Configuration:<br>
 Ensure that the config.json file is properly configured with the desired settings for number conversion.<br><br>
@@ -50,3 +46,17 @@ Copy code<br>
 }<br>
 Modify the units, tens, hundred, magnitudes, min_number, and max_number fields as needed for your use case.<br><br>
 
+Unit testing:<br>
+To run the unit tests, execute the below command from the django project:<br>
+python3 manage.py test number_to_english_app<br><br>
+
+Cases tested:<br>
+- Positive and negative whole numbers in range<br>
+- Positive and negative decimal numbers in range<br>
+- Positive and negative whole numbers out of range<br>
+- Positive and negative decimal numbers out of range<br>
+- Invalid number format<br><br>
+
+Note:<br>
+- The code doesn't handle numbers with special characters (including commas, but can be enhanced easilty depending on the requirement)<br>
+- The server is insecure. It can easily be enhanced to include a certificate to make it secure.<br><br>
