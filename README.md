@@ -4,7 +4,7 @@ This Django project provides an API endpoint to convert numeric values into thei
 Installation<br>
 Clone the repository:<br>
 Copy code<br>
-git clone https://github.com/your_username/number-to-english.git<br><br>
+git clone (https://github.com/kanthikomar/numbers_case_studies.git) <br><br>
 
 Usage<br>
 Configuration:<br>
